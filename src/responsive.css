@@ -14,7 +14,7 @@
 
   /* BERANDA */
   .content-beranda {
-    background: url(images/bg-1.png);
+    background: url(assets/images/grass-315184_1280.jpg);
     background-size: cover;
     display: flex;
     width: 100%;
@@ -344,7 +344,7 @@
 
   /* BERANDA */
   .content-beranda {
-    background: url(images/bg-1.png);
+    background: url(assets/images/grass-315184_1280.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: flex;

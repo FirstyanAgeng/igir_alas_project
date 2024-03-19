@@ -32,19 +32,18 @@ const Home = () => {
               <img src="images/item-1.png" alt="" data-aos="fade-up" />
             </div>
             <div className="col-lg-7 col-sm-12" data-aos="fade-left">
-              <h1>CV. HASEA HATOVLIN COCONUT ARENGA ORGANIC</h1>
+              <h1>IGIR ALAS COMPANY</h1>
               <p>
-                We were founded in 2021, under the name CV.Hasea Hatovlin
-                Coconut Arenga Organic which has shown professionalism in terms
-                of design, we work with a team that is creative and professional
-                in their field, can be followed by ordinary people as well as
-                with a profitable system.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio, porro fugiat voluptatibus commodi fugit assumenda
+                quia odit vel, nostrum repellendus praesentium pariatur quidem.
+                Quod omnis voluptates sequi obcaecati culpa harum!
               </p>
             </div>
           </div>
 
           <div className="row content-2 text-center">
-            <h1 className="pb-5">OUR PRODUCT</h1>
+            <h1 className="pb-5">PRODUK KAMI</h1>
             <div className="col" data-aos="flip-left">
               <img src="images/product-1.png" alt="" />
               <h3>GULA KELAPA SEMUT</h3>
