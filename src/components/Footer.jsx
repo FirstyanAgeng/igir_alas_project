@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
             <p>
               <img src="images/mail-foot.png" alt="" className="pe-2" />
-              GMAIL Teushaseahatovlinorganic@gmail.com
+              GMAIL @gmail.com
             </p>
           </div>
           <div className="col me-5">

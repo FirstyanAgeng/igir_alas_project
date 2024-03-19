@@ -1,10 +1,12 @@
+import logo from "../assets/images/logo.png";
 const Navbars = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <img src="images/logo.png" alt="" className="logo" />
+          <img src={logo} alt="" className="logo" />
         </a>
+
         <button
           className="navbar-toggler"
           type="button"

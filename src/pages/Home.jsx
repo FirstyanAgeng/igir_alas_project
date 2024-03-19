@@ -60,12 +60,16 @@ const Home = () => {
             </div>
             <div className="col" data-aos="flip-right">
               <img src="images/product-2.png" alt="" />
-              <h3>GULA CETAK AREN</h3>
+              <h3>GULA AREN</h3>
               <p style={{ textAlign: "justify" }}>
-                Keaslian Gula Cetak Aren produk kami terjamin karena kami
-                melakukan pembinaan dan pendampingan terhadap petani-petani Aren
-                yang tersebar di wilayah Jawa Barat. Pembinaan yang kami lakukan
-                berkaitan dengan penjagaan produk petani agar benar bersih
+                gula aren semut organik berkualitas tinggi dengan menggunakan
+                metode tradisional. Gula aren semut organik ini merupakan produk
+                alami yang dihasilkan dari nira aren yang diproses secara manual
+                dengan menjaga keaslian dan kealamian bahan baku serta tanpa
+                menggunakan bahan kimia atau pengawet sintetis. Produk ini
+                memiliki cita rasa yang khas dan aroma yang lezat, menjadikannya
+                pilihan yang populer di pasar yang menghargai makanan organik
+                dan alami.
               </p>
               <a href="catalogue.html">
                 <button className="tombol-view">VIEW MORE</button>
