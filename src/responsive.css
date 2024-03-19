@@ -1,0 +1,681 @@
+/* mobile */
+@media (max-width: 576px) {
+  .logo {
+    margin-top: -35px;
+    position: absolute;
+    width: 110px;
+    height: 95px;
+  }
+  .navbar {
+    background-color: var(--primary-color);
+    height: 60px;
+    width: auto;
+  }
+
+  /* BERANDA */
+  .content-beranda {
+    background: url(images/bg-1.png);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .content-beranda h1 {
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 25px;
+    padding-top: 100px;
+  }
+
+  .content-beranda p {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .blur-background {
+    height: 100vh;
+    background: rgba(47, 46, 65, 0.16);
+    color: var(--secondary-color);
+    padding-top: 100px;
+  }
+
+  .blur {
+    background-color: rgba(47, 46, 65, 0.25);
+  }
+
+  .desk-home img {
+    width: 100%;
+  }
+
+  .desk-home h1 {
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .content-2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .content-2 h3 {
+    padding-top: 15px;
+    font-size: 18px;
+  }
+
+  .content-2 p {
+    font-size: 15px;
+  }
+
+  .content-2 img {
+    width: 215px;
+  }
+
+  .tombol-view {
+    padding: 10px;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    margin-bottom: 50px;
+  }
+
+  .tombol-view:hover {
+    background-color: white;
+    color: var(--primary-color);
+    transition: 0.3s ease;
+    border: 1px solid var(--primary-color);
+  }
+
+  /* TESTIMONI */
+
+  #testimoni {
+    width: 250px;
+  }
+
+  #star {
+    width: 100px;
+  }
+  .card-testimoni {
+    height: 296px;
+    width: 245px;
+    background-color: var(--bg-primary);
+    color: white;
+    margin-top: -70px;
+    height: 40vh;
+    margin-left: 2px;
+    box-shadow: 0px 4px 4px #666666;
+  }
+
+  .content-3 h1 {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #524a4e;
+  }
+
+  .content-3 h3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .content-3 p {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  /* section */
+  .content-4 {
+    background: url(images/bg-3.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 372px;
+    font-family: "Sorts Mill Goudy", serif;
+    padding-top: 100px;
+  }
+
+  .content-4 h1 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    color: #fefefe;
+  }
+
+  .content-4 p {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fefefe;
+  }
+
+  /* ABOUT */
+
+  .about-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-about {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  .about h1 {
+    font-size: 30px;
+  }
+
+  .about p {
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .hero-about {
+    background: url(images/bg-2.png);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .img-about {
+    width: 10px;
+    height: 10px;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+  }
+
+  .content-about h1 {
+    font-size: 20px;
+  }
+
+  .con-team {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 115.5%;
+    text-align: center;
+    margin-top: -10px;
+  }
+
+  /* CATALOGUE */
+
+  .content-catalogue {
+    background: url(images/bg-4.png);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .dark .kartu-katalog {
+    background-color: #524a4e;
+    color: white;
+  }
+
+  .kartu-katalog {
+    width: 300px;
+    height: 370px;
+
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }
+
+  #nutrisiProduk {
+    display: none;
+    height: 65vh;
+  }
+
+  #deskripsiProduk {
+    height: 65vh;
+    padding-bottom: 20px;
+  }
+
+  .btn-desk {
+    color: white;
+    background-color: #666666;
+    padding: 8px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 10px;
+  }
+  .btn-nutrition {
+    color: white;
+    background-color: #666666;
+    padding: 10px;
+    padding: 8px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  /* CONTACT */
+  .content-contact {
+    background: url(images/bg-5.png);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .contact-2 h1 {
+    font-family: Poppins;
+    font-size: 25px !important;
+    text-align: center;
+  }
+
+  .contact-2 h3 {
+    font-family: Poppins;
+    font-size: 15px !important;
+  }
+
+  .isi-hero {
+    padding-top: 100px;
+  }
+
+  iframe {
+    margin-top: 50px;
+    margin-bottom: -70px;
+    width: 70%;
+    height: 30%;
+  }
+
+  footer {
+    height: 55vh;
+    padding-top: 80px;
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  .login-btn {
+    padding: 10px;
+    border: none;
+    background-color: #fefefe;
+    color: #50b849;
+    width: 100px;
+    border-radius: 20px;
+  }
+
+  .login-btn:hover {
+    background-color: #787878;
+    color: #50b849;
+    transition: 0.3s ease;
+  }
+
+  .whatsapp {
+    position: fixed;
+    border: 3px solid black;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width: 990px) {
+  /* NAVBAR */
+  .logo {
+    margin-top: -35px;
+    position: absolute;
+    width: 110px;
+    height: 100px;
+  }
+  .navbar {
+    background-color: var(--primary-color);
+    height: 70px;
+  }
+
+  /* BERANDA */
+  .content-beranda {
+    background: url(images/bg-1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .content-beranda h1 {
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 62px;
+  }
+
+  .content-beranda p {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .blur-background {
+    height: 100vh;
+    background: rgba(47, 46, 65, 0.16);
+    color: var(--secondary-color);
+    padding-top: 100px;
+  }
+
+  .blur {
+    background-color: rgba(47, 46, 65, 0.25);
+  }
+
+  .tombol-order {
+    height: 53px;
+    width: 194px;
+    border-radius: 32px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    border: 2px solid #50b849;
+    font-family: "Poppins";
+  }
+
+  .tombol-order:hover {
+    background-color: white;
+    color: var(--primary-color);
+    transition: 0.3s ease;
+  }
+
+  .content-2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .tombol-view {
+    padding: 10px;
+    width: 220px;
+    text-decoration: none;
+
+    border-radius: 20px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  .tombol-view:hover {
+    background-color: white;
+    color: var(--primary-color);
+    transition: 0.3s ease;
+    border: 1px solid var(--primary-color);
+  }
+
+  .card-testimoni {
+    height: 296px;
+    width: 650px;
+    background-color: var(--bg-primary);
+    color: white;
+    margin-top: 30px;
+    margin-left: -70px;
+    box-shadow: 0px 4px 4px #666666;
+  }
+
+  .content-3 h1 {
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #524a4e;
+  }
+
+  .content-3 h3 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .content-3 p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .content-4 {
+    background: url(images/bg-3.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 372px;
+    font-family: "Sorts Mill Goudy", serif;
+  }
+
+  .content-4 h1 {
+    font-family: OFL Sorts Mill Goudy TT;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fefefe;
+  }
+
+  .content-4 p {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fefefe;
+  }
+
+  /* ABOUT */
+  .hero-about {
+    background: url(images/bg-2.png);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .about-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-about {
+    width: 400px !important;
+    height: 400px !important;
+  }
+
+  /* 
+  .content-5 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  } */
+
+  .line-team {
+    width: 450px;
+    height: 0px;
+    left: 44px;
+    top: 2287px;
+
+    border: 4px solid #524a4e;
+  }
+
+  .con-team {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 115.5%;
+    text-align: center;
+    margin-top: -10px;
+  }
+
+  /* CATALOGUE */
+
+  .content-catalogue {
+    background: url(images/bg-4.png);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .content-catalogue h1 {
+    padding-top: 100px;
+  }
+
+  .dark .kartu-katalog {
+    background-color: #524a4e;
+    color: white;
+  }
+
+  .kartu-katalog {
+    width: 300px;
+    height: 370px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }
+
+  /* Isi Catalogue */
+  .produk {
+    margin-top: 120px;
+    margin-bottom: 130px;
+  }
+  #nutrisiProduk {
+    display: none;
+    height: 65vh;
+  }
+
+  #deskripsiProduk {
+    height: 65vh;
+    padding-bottom: 20px;
+  }
+
+  .btn-desk {
+    color: white;
+    background-color: #666666;
+    padding: 8px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 10px;
+  }
+  .btn-nutrition {
+    color: white;
+    background-color: #666666;
+    padding: 10px;
+    padding: 8px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  /* CONTACT */
+  .content-contact {
+    background: url(images/bg-5.png);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .isi-hero {
+    padding-top: 120px;
+  }
+
+  .contact-2 h1 {
+    font-family: Poppins;
+    font-size: 25px !important;
+    text-align: center;
+  }
+
+  .contact-2 h3 {
+    font-family: Poppins;
+    font-size: 15px !important;
+  }
+
+  iframe {
+    margin-top: 50px;
+    margin-bottom: -70px;
+  }
+
+  footer {
+    height: 55vh;
+    padding-top: 80px;
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  .login-btn {
+    padding: 10px;
+    border: none;
+    background-color: #fefefe;
+    color: #50b849;
+    width: 100px;
+    border-radius: 20px;
+  }
+
+  .login-btn:hover {
+    background-color: #787878;
+    color: #50b849;
+    transition: 0.3s ease;
+  }
+
+  .whatsapp {
+    position: fixed;
+    border: 3px solid black;
+  }
+
+  .contact-2 h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .contact-2 h3 {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+@media (max-width: 990px) {
+  .offcanvas {
+    max-width: 30%;
+  }
+  .nav-link {
+    color: black;
+  }
+
+  .nav-link:hover {
+    color: #50b849 !important;
+  }
+  .active {
+    color: #50b849 !important;
+  }
+}
