@@ -1,5 +1,13 @@
 import logo from "../assets/images/logo.png";
+import { Link, useLocation } from "react-router-dom";
+
 const Navbars = () => {
+  const location = useLocation();
+
+  const isActive = (pathname) => {
+    return location.pathname === pathname ? "active" : "";
+  };
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
       <div className="container-fluid">
@@ -24,7 +32,7 @@ const Navbars = () => {
         >
           <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-              CV HASEA
+              IGIR ALAS
             </h5>
             <button
               type="button"
@@ -36,25 +44,24 @@ const Navbars = () => {
           <div className="offcanvas-body container">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-1">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link className={`nav-link ${isActive("/")}`} to="/">
                   Home
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/about.html">
+                <Link className={`nav-link ${isActive("/about")}`} to="/about">
                   About Us
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  className="nav-link"
-                  aria-current="page"
-                  href="/catalogue.html"
+                <Link
+                  className={`nav-link ${isActive("/catalogue")}`}
+                  to="/catalogue"
                 >
                   Catalogue
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a
