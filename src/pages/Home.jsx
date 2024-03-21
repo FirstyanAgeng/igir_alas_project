@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Layout from "../Layouts/layout";
-
+import star from "/images/bintang.png";
 import "aos/dist/aos.css";
 const Home = () => {
   return (
@@ -113,7 +113,7 @@ const Home = () => {
                     provide good quality products at the best prices. now I have
                     subscribed with this company. continued success cv.hasea.
                   </p>
-                  <img src="images/bintang.png" alt="" id="star" />
+                  <img src={star} alt="" id="star" />
                 </div>
               </div>
             </div>
