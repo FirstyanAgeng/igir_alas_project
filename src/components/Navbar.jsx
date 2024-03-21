@@ -63,15 +63,12 @@ const Navbars = () => {
                   Catalogue
                 </Link>
               </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  aria-current="page"
-                  href="/contact.html"
-                >
-                  Contact Us
-                </a>
-              </li>
+              <Link
+                className={`nav-link ${isActive("/catalogue")}`}
+                to="/contact"
+              >
+                Contact Page
+              </Link>
             </ul>
             {/* <button onclick="darkMode()" className="btn-dark">
               Dark Mode
