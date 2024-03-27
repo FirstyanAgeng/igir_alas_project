@@ -1,12 +1,14 @@
 import React from "react";
 import Aos from "aos";
 import { useEffect } from "react";
+import Whatsapp from "./Whatsapp";
 const Footer = () => {
   useEffect(() => {
     Aos.init();
   }, []);
   return (
     <>
+      <Whatsapp />
       <div className="text-center">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.046963329448!2d109.14370277476145!3d-7.348623492660188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f8a88acc90b7f%3A0x1b8bfe68c4eb1411!2sMTs%20PAKIS!5e0!3m2!1sid!2sid!4v1710703170253!5m2!1sid!2sid"

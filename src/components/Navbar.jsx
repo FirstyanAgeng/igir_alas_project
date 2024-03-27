@@ -64,7 +64,7 @@ const Navbars = () => {
                 </Link>
               </li>
               <Link
-                className={`nav-link ${isActive("/catalogue")}`}
+                className={`nav-link ${isActive("/contact")}`}
                 to="/contact"
               >
                 Contact Page

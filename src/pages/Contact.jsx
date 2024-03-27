@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <Layout>
       <Container>
-        <h2 className="text-center">Contact page</h2>
+        <h1 className="text-center">Contact Page</h1>
       </Container>
     </Layout>
   );

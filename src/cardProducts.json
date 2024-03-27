@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Kopi",
+    "desc": "Kopi Igir Alas adalah kopi robusta yang memiliki ciri khas karena dipetik dari ketinggian 700 mdpl (meter di atas permukaan laut). Lokasinya berada di Desa Pesawahan, Dusun III, Gunung Lurah, Cilongok, Kabupaten Banyumas, Jawa Tengah. Daerah ini secara geografis didominasi oleh pegunungan dan perbukitan dengan ketinggian rata-rata yang sama, yaitu 700 mdpl. Keberadaan kopi ini di wilayah tersebut memberikan karakteristik unik pada biji kopi Robusta yang dihasilkan. Ketinggian tempat tumbuhnya kopi dapat memengaruhi kualitas dan cita rasa biji kopi.",
+    "image_url": "/images/1.jpg",
+    "page": "/product/1"
+  },
+  {
+    "id": 2,
+    "title": "Gula Aren",
+    "desc": " Gula aren semut organik berkualitas tinggi dengan menggunakan metode tradisional. Gula aren semut organik ini merupakan produk alami yang dihasilkan dari nira aren yang diproses secara manual dengan menjaga keaslian dan kealamian bahan baku serta tanpa menggunakan bahan kimia atau pengawet sintetis. Produk ini memiliki cita rasa yang khas dan aroma yang lezat, menjadikannya pilihan yang populer di pasar yang menghargai makanan organik dan alami",
+    "image_url": "/images/IMG-20240313-WA0013.jpg",
+    "page": "/product/2"
+  },
+  {
+    "id": 3,
+    "title": "Buku",
+    "desc": "Buku adalah jendela menuju dunia tak terbatas, sebuah perjalanan tanpa batas yang dapat kita nikmati dari kenyamanan rumah kita sendiri. Igir alas mempunyai produk buku yang setiap halaman adalah pintu ke petualangan baru, ide ide yang menginspirasi dan pengetahuan tak terhingga. Dengan setiap halaman yang kita baca, kita merasakan kekuatan kata kata untuk mengubah pikiran, merangsang imajinasi, dan membangun pemahaman yang lebih dalam tentang dunia di sekitar kita",
+    "image_url": "/images/WhatsApp Image 2024-03-13 at 12.37.04_b67fa14c.jpg",
+    "page": "/product/3"
+  },
+  {
+    "id": 3,
+    "title": "Buku",
+    "desc": "Buku adalah jendela menuju dunia tak terbatas, sebuah perjalanan tanpa batas yang dapat kita nikmati dari kenyamanan rumah kita sendiri. Igir alas mempunyai produk buku yang setiap halaman adalah pintu ke petualangan baru, ide ide yang menginspirasi dan pengetahuan tak terhingga. Dengan setiap halaman yang kita baca, kita merasakan kekuatan kata kata untuk mengubah pikiran, merangsang imajinasi, dan membangun pemahaman yang lebih dalam tentang dunia di sekitar kita",
+    "image_url": "/images/WhatsApp Image 2024-03-13 at 12.37.04_b67fa14c.jpg",
+    "page": "/product/3"
+  },
+  {
+    "id": 3,
+    "title": "Buku",
+    "desc": "Buku adalah jendela menuju dunia tak terbatas, sebuah perjalanan tanpa batas yang dapat kita nikmati dari kenyamanan rumah kita sendiri. Igir alas mempunyai produk buku yang setiap halaman adalah pintu ke petualangan baru, ide ide yang menginspirasi dan pengetahuan tak terhingga. Dengan setiap halaman yang kita baca, kita merasakan kekuatan kata kata untuk mengubah pikiran, merangsang imajinasi, dan membangun pemahaman yang lebih dalam tentang dunia di sekitar kita",
+    "image_url": "/images/WhatsApp Image 2024-03-13 at 12.37.04_b67fa14c.jpg",
+    "page": "/product/3"
+  }
+]
